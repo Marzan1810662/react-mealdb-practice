@@ -1,0 +1,28 @@
+nav{
+    border-bottom: 2px dashed darkolivegreen;
+}
+
+nav h1{
+    color: darkolivegreen;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow:1px 8px 5px rgb(47 67 15 / 52%);
+}
+
+#icon{
+    color: rgb(236, 187, 96);
+}
+nav a{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+    padding: 0 8px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(65, 92, 22);
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: darkolivegreen;
+    border-bottom: 4px groove darkolivegreen;
+    /* text-shadow:1px 8px 5px rgb(47 67 15 / 52%); */
+}
