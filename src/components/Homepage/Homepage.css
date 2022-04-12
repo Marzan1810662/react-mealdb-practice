@@ -1,0 +1,22 @@
+.homepage-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.right {
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+    .homepage-container {
+        grid-template-columns:repeat(1,1fr);
+    }
+    div:first-child{
+        order: 2;
+    }
+    .right {
+        order: 1;
+    }
+
+}
