@@ -2,6 +2,15 @@ nav{
     border-bottom: 2px dashed darkolivegreen;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(65, 92, 22);
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: darkolivegreen;
+    border-bottom: 4px groove darkolivegreen;
+    /* text-shadow:1px 8px 5px rgb(47 67 15 / 52%); */
+}
+
 nav h1{
     color: darkolivegreen;
     font-size: 35px;
@@ -17,11 +26,13 @@ nav a{
     font-size: 20px;
     margin-left: 15px;
 }
-.navbar-light .navbar-nav .nav-link {
+nav p{
     color: rgb(65, 92, 22);
-}
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: darkolivegreen;
-    border-bottom: 4px groove darkolivegreen;
-    /* text-shadow:1px 8px 5px rgb(47 67 15 / 52%); */
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 15px;
+    margin-bottom: 0;
+    padding: .3rem 1rem;
+    border: 1px solid gray;
+    border-radius: 20px;
 }

@@ -1,0 +1,68 @@
+.form-container {
+    border: 1px solid darkolivegreen;
+    border-radius: 10px;
+    width: 40%;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.341);
+}
+
+.login-title {
+    color: darkolivegreen;
+    font-size: bold;
+}
+
+.form-control {
+    border: 1px solid rgb(122, 145, 83);
+}
+
+.form-control:focus {
+    border: 2px solid darkolivegreen;
+    box-shadow: none;
+    color: darkolivegreen;
+    font-size: 20px;
+}
+
+.form-container button {
+    background: whitesmoke;
+    border: 2px solid darkolivegreen;
+    color: darkolivegreen;
+    font-weight: bold;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.form-container button:hover {
+    background: darkolivegreen;
+    border: 2px solid darkolivegreen;
+    color: white;
+}
+
+.form-container p>a {
+    text-decoration: none;
+    color: darkolivegreen;
+    font-weight: bold;
+}
+.google-signin-div{
+    text-align: center;
+}
+.google-signin-div button{
+    border-radius: 5px;
+    width: 41%;
+    margin: 0;
+}
+
+.google-signin-div img {
+    width: 20%;
+}
+
+@media screen and (max-width:576px) {
+    .form-container {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .form-container {
+        margin-top: 30%;
+        width: 100%;
+    }
+}
